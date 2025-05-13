@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Калькулятор расчёта стоимости свадьбы" FontAttributes="Bold"/>
+            <Label Text="Текушяя цена   0" x:Name="Sum_imput"/>
+            <Label Text="Помешение" FontAttributes="Bold" FontSize="24"/>
+            <HorizontalStackLayout x:Name="fixsed_1" Spacing="10">
+                <Label x:Name="Kofe_lible_01" Text="White Rabbit                                    58000 р." />
+                <Button x:Name="Kofe_01" Clicked="Kofe_1" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            
+            <Label x:Name="Kofe_info_1" Text="info 1" IsVisible="False"/>
+            
+            
+            <HorizontalStackLayout x:Name="fixsed_2" Spacing="10">
+                <Label x:Name="Kofe_lible_02" Text="Café Pushkin                                    46000 р."/>
+                <Button x:Name="Kofe_02" Clicked="Kofe_2" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="fixsed_3" Spacing="10">
+                <Label x:Name="Kofe_lible_03" Text="Beluga                                               70000 р." />
+                <Button x:Name="Kofe_03" Clicked="Kofe_3" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="fixsed_4" Spacing="10">
+                <Label x:Name="Kofe_lible_04" Text="Ketch Up                                           38000 р." />
+                <Button x:Name="Kofe_04" Clicked="Kofe_4" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout x:Name="fixsed_5" Spacing="10">
+                <Label x:Name="Kofe_lible_05" Text="Moscow City Grill                            50000 р." />
+                <Button x:Name="Kofe_05" Clicked="Kofe_5" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            
+            <Label x:Name="kuhna" Text="Блюда" FontAttributes="Bold" FontSize="24"/>
+
+            
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="kuhna_01" IsVisible="False" Text="                                                              ."/>
+                <Button x:Name="kuhna_1" IsVisible="False" Clicked="kuhna_01_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="kuhna_02" IsVisible="False" Text="                                                              ."/>
+                <Button x:Name="kuhna_2" IsVisible="False" Clicked="kuhna_02_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="kuhna_03" IsVisible="False" Text="                                                              ."/>
+                <Button x:Name="kuhna_3" IsVisible="False" Clicked="kuhna_03_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="kuhna_04" IsVisible="False" Text="                                                              ."/>
+                <Button x:Name="kuhna_4" IsVisible="False" Clicked="kuhna_04_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="kuhna_05" IsVisible="False" Text="                                                              ."/>
+                <Button x:Name="kuhna_5" IsVisible="False" Clicked="kuhna_05_" BackgroundColor="Grey"/>
+
+            </HorizontalStackLayout>
+
+            <Label x:Name="trabsport" Text="Транспорт" FontAttributes="Bold" FontSize="24"/>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="trabsport_01"  Text="Мерседес W221                             39000 р."/>
+                <Button x:Name="trabsport_1"  Clicked="trabsport_01_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="trabsport_02"  Text="BMW E65                                         38000 р."/>
+                <Button x:Name="trabsport_2"  Clicked="trabsport_02_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="trabsport_03"  Text="Ауди А8                                            46000 р."/>
+                <Button x:Name="trabsport_3"  Clicked="trabsport_03_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="trabsport_04"  Text="БМВ E46                                           48000 р."/>
+                <Button x:Name="trabsport_4"  Clicked="trabsport_04_" BackgroundColor="Grey"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label x:Name="trabsport_05"  Text="Крайслер 300С                               55000 р."/>
+                <Button x:Name="trabsport_5"  Clicked="trabsport_05_" BackgroundColor="Grey"/>
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
